@@ -13,6 +13,7 @@ type Metadata = {
   summary: string
   image?: string
   author?: Author
+  dingcodingco?: string
 }
 
 function parseFrontmatter(fileContent: string) {
